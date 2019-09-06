@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "databaseType": "couchbase",
+    "devDatabaseType": "couchbase",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": "kafka",
+    "nativeLanguage": "en",
+    "packageName": "com.infy.bankingsupport",
+    "packageFolder": "com/infy/bankingsupport",
+    "prodDatabaseType": "couchbase",
+    "searchEngine": false,
+    "serviceDiscoveryType": false,
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "bijintest",
+    "applicationType": "microservice",
+    "buildTool": "maven",
+    "serverPort": "8080",
+    "skipUserManagement": true,
+    "jhipsterVersion": "6.1.2",
+    "clientPackageManager": "npm",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "jwtSecretKey": "NDkyN2JjOGI5NzFmYTY1YTMxZWZjYjQxN2M3ZTdjMTkyOTAxMTlhYWM4ZTY4OTgwMGM2ZTNkNzI1MTU5MmRlNzViMjA3OTgzYTA3Zjg3ZDdmZmRhMTZmYjNiYzZlODZlMjdhNzc3ODQyYzhmMDliYjhmZjMyMzViNDVlZTEwOWI=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "entities": [
+    "Employee",
+    "Customer"
+  ]
+}
